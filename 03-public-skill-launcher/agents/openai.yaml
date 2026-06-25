@@ -1,0 +1,5 @@
+interface:
+  display_name: "Public Skill Launcher"
+  short_description: "Package skills for public release."
+  default_prompt: "Use $public-skill-launcher to turn this skill idea into a public-ready launch package."
+

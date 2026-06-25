@@ -10,6 +10,7 @@ This repo collects public AI workflow skills from my research projects into one 
 |---|---|---|---|
 | 01 | [Super Lab](./01-super-lab/) | Lightweight multi-agent research orchestration for turning a question into structured outputs. | [RESEARCH_PAPERS](https://github.com/JorrrrrdDin/RESEARCH_PAPERS) |
 | 02 | [Knowledge Graph Lab](./02-knowledge-graph-lab/) | Maps Markdown/Obsidian notes into center topics, noisy notes, orphans, and cleanup actions. | [knowledge-gravity-lab](https://github.com/JorrrrrdDin/knowledge-gravity-lab) |
+| 03 | [Public Skill Launcher](./03-public-skill-launcher/) | Packages an internal skill into a public-ready release with hooks, demos, examples, and safety scrub. | Original |
 
 ## Quick Start
 
@@ -33,7 +34,8 @@ New skills will follow this style:
 ```text
 01-super-lab/
 02-knowledge-graph-lab/
-03-next-skill/
+03-public-skill-launcher/
+04-next-skill/
 ```
 
 The numbering keeps the collection easy to browse as it grows.
