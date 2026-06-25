@@ -2,6 +2,8 @@
 
 Small, useful agent skills you can try today.
 
+[한국어 README](./README.ko.md)
+
 This repo collects public AI workflow skills from my research projects into one place. Each skill is packaged as a folder with a `SKILL.md`, examples, and any scripts or assets it needs.
 
 ## Skills
