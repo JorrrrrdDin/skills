@@ -1,0 +1,6 @@
+interface:
+  display_name: "Knowledge Gravity Lab"
+  short_description: "Map notes into useful knowledge gravity"
+  default_prompt: "Use $knowledge-gravity-lab to analyze this notes folder and produce a practical knowledge map with center topics, possible contamination/noise, overgrown groups, and cleanup actions."
+policy:
+  allow_implicit_invocation: true
