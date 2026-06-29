@@ -1,0 +1,48 @@
+{
+  "_sanitizer_directive": "sanitizer: ignore-file",
+  "_comment": "Copy to .sanitizer.local.json (gitignored) and fill with YOUR private terms. The committed repo must contain ONLY this example with generic placeholders.",
+  "block_terms": [
+    "ACME_CORP",
+    "PROJECT_FALCON",
+    "INTERNAL_CODENAME"
+  ],
+  "warn_terms": [
+    "northwind",
+    "vendor_placeholder"
+  ],
+  "client_names": [
+    "ExampleClientName"
+  ],
+  "project_codenames": [
+    "BLUEBIRD_PLACEHOLDER"
+  ],
+  "own_username": "YOUR_OS_USERNAME",
+  "own_emails": [
+    "you@example.com"
+  ],
+  "allowlist": {
+    "emails": [
+      "you@example.com"
+    ],
+    "usernames": [
+      "YOUR_OS_USERNAME"
+    ],
+    "literals": [
+      "AKIA_YOUR_SAMPLE_KEY_HERE"
+    ],
+    "globs": [
+      "tests/fixtures/**",
+      "*.min.js",
+      "*.lock"
+    ]
+  },
+  "placeholders_extra": [
+    "TENANT_PLACEHOLDER"
+  ],
+  "entropy": {
+    "enabled": true,
+    "min_len": 20,
+    "base64_bits": 4.0,
+    "hex_bits": 3.0
+  }
+}

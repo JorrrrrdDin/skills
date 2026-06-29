@@ -1,0 +1,12 @@
+# skill-sanitizer self-exclusion (these document detection patterns, not real leaks)
+SKILL.md
+.sanitizer.local.example.json
+scanner.py
+.sanitizerignore
+README.md
+LICENSE
+examples/
+examples/**
+.claude-plugin/
+.claude-plugin/**
+README.ko.md

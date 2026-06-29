@@ -15,6 +15,7 @@ This repo collects public AI workflow skills from my research projects into one 
 | 01 | [Super Lab](./01-super-lab/) | Lightweight multi-agent research orchestration for turning a question into structured outputs. | [RESEARCH_PAPERS](https://github.com/JorrrrrdDin/RESEARCH_PAPERS) |
 | 02 | [Knowledge Graph Lab](./02-knowledge-graph-lab/) | Maps Markdown/Obsidian notes into center topics, noisy notes, orphans, and cleanup actions. | [knowledge-gravity-lab](https://github.com/JorrrrrdDin/knowledge-gravity-lab) |
 | 03 | [Public Skill Launcher](./03-public-skill-launcher/) | Packages an internal skill into a public-ready release with hooks, demos, examples, and safety scrub. | Original |
+| 04 | [Skill Sanitizer](./04-skill-sanitizer/) | Pre-share leak scanner — catches secrets, PII, machine paths, and client names *before* you publish a skill, and flags service code to split into plugins. Fail-closed, stdlib-only. | Original |
 
 ## Quick Start
 
@@ -39,7 +40,8 @@ New skills will follow this style:
 01-super-lab/
 02-knowledge-graph-lab/
 03-public-skill-launcher/
-04-next-skill/
+04-skill-sanitizer/
+05-next-skill/
 ```
 
 The numbering keeps the collection easy to browse as it grows.
@@ -58,6 +60,7 @@ The numbering keeps the collection easy to browse as it grows.
 - `01-super-lab`: 질문을 여러 관점으로 나누어 가볍게 병렬 연구합니다.
 - `02-knowledge-graph-lab`: Markdown/Obsidian 노트를 분석해 중심 주제와 정리 우선순위를 찾습니다.
 - `03-public-skill-launcher`: 내부 스킬을 공개 가능한 형태로 포장합니다.
+- `04-skill-sanitizer`: 공유 전 누출 스캐너 — 시크릿·개인정보·머신경로·클라이언트명을 공개 *전에* 잡고, 서비스 코드는 plugin 분리를 권고합니다.
 
 한국어 설명은 [README.ko.md](./README.ko.md)에 따로 정리해두었습니다.
 
@@ -67,6 +70,7 @@ Licenses are preserved per skill folder:
 
 - `01-super-lab`: CC BY-NC 4.0, inherited from `RESEARCH_PAPERS`.
 - `02-knowledge-graph-lab`: MIT, inherited from `knowledge-gravity-lab`.
+- `04-skill-sanitizer`: MIT.
 
 Check each folder's `LICENSE` before reuse.
 
